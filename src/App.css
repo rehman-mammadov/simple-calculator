@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+
+.button-con{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;      
+}
+
+.button-res{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+
+}
+
+p{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.plus {
+  background-color: #4caf50;
+  color: white;
+}
+
+.minus {
+  background-color: #f44336;
+  color: white;
+}
+
+.divide {
+  background-color: #ff9800;
+  color: white;
+}
+
+.resetInput {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.resetResult {
+  background-color: #607d8b;
+  color: white;
+}
